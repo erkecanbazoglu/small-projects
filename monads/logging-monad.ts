@@ -1,3 +1,8 @@
+// This is an example of monads with logging
+// It performs a series of calculations of a number input
+// Adding logs to the calculations in each step so that the logs are accumulated
+// Later the logs can be used for debugging purposes
+
 interface NumberWithLogs {
   result: number;
   logs: string[];

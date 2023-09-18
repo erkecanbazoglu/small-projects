@@ -2,7 +2,7 @@
 // It is to disable block level shadowing on variables
 // @ts-nocheck
 
-// // Copy whatever you want to run here
+// // General example for understanding monads
 
 // Define an interface (type) for the Monad
 // Any is the value that will be wrapped, it can be any type such as number of string

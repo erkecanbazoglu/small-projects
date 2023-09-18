@@ -8,21 +8,21 @@ They wrap their return values as a monadic type. Although th computation is perm
 
 ## 3 Components of Monads:
 
-1. Wrapper Type
+### 1. Wrapper Type
 
 Define an interface (type) for the Monad  
 You can use a field called value for the result, it can be any type such as number of string  
 If you want to use a specific unknown type, you can use generics <T>  
 You can add other necessary fields such as logs or other values
 
-2. Wrap Function
+### 2. Wrap Function
 
 Allows entry to monad ecosystem.  
 They take the expected value and returns the monadic value.
 
 They are also known as return, pure, unit...
 
-3. Run Function
+### 3. Run Function
 
 Runs transformations on monadic values.
 

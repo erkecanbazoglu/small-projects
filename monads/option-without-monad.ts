@@ -2,6 +2,8 @@
 // It is to disable block level shadowing on variables
 // @ts-nocheck
 
+// The purpose of this example is to show how we check for null or undefined values in chain operations
+// If don't check for null or undefined values on every step, the next logic will be performed unncesarily
 interface User {
   name: string;
   age: number;

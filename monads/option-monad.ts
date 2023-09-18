@@ -2,6 +2,9 @@
 // It is to disable block level shadowing on variables
 // @ts-nocheck
 
+// The purpose of this monads is to check whether the output of a certaing logic is null or undefined
+// If it is null or undefined, it will not run the following functions in chain operations
+
 // Constants
 const users = {
   1: { name: "John", age: 25 },
