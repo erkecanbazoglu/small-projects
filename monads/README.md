@@ -6,23 +6,29 @@ Monads are a design pattern that allows a user to chain operations while the mon
 
 They wrap their return values as a monadic type. Although th computation is permormed on actual of the variable, the wrapFunctions, runFunctions and transformFunctions all return monadic types.
 
+"The problem with monads is that once you know what is, you lose the ability to explain it" :)
+
+It provides declarative approach instead of imperative, as also in functional programming.  
+Declarative approach describes what we want and not how to do it.  
+Imperative approach describes what we want and how we want it.
+
 ## 3 Components of Monads:
 
-### 1. Wrapper Type
+1. Wrapper Type
 
 Define an interface (type) for the Monad  
 You can use a field called value for the result, it can be any type such as number of string  
 If you want to use a specific unknown type, you can use generics <T>  
 You can add other necessary fields such as logs or other values
 
-### 2. Wrap Function
+2. Wrap Function
 
 Allows entry to monad ecosystem.  
 They take the expected value and returns the monadic value.
 
 They are also known as return, pure, unit...
 
-### 3. Run Function
+3. Run Function
 
 Runs transformations on monadic values.
 
